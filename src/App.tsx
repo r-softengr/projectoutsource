@@ -74,7 +74,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div className="h-[200px] md:h-[50px] text-white text-center font-semibold font-sans text-lg backdrop-blur-sm bg-[#2b323f]/80">
+      <div className="md:h-auto py-5 text-white text-center font-semibold font-sans text-lg backdrop-blur-sm bg-[#2b323f]/80">
         <div>
           <div>Wanna hire a VA?</div>
           <div>Send us an email at loremimpusm@gmail.com</div>

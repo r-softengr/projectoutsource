@@ -562,6 +562,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mb-0 {
+  margin-bottom: 0px;
+}
+
 .flex {
   display: flex;
 }
@@ -800,6 +804,10 @@ video {
 
   .md\:h-\[50px\] {
     height: 50px;
+  }
+
+  .md\:h-auto {
+    height: auto;
   }
 
   .md\:w-1\/4 {
