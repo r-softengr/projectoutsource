@@ -71,7 +71,7 @@ function App() {
         <div className="text-5xl text-center w-full font-semibold text-primary my-5">
           CLIENT'S FEEDBACK
         </div>
-        <div className="w-full h-1/3 border border-solid flex flex-col justify-between items-center gap-5 overflow-y-auto flex-wrap p-5">
+        <div className="w-full h-1/3 flex flex-col justify-between items-center gap-5 overflow-y-auto flex-wrap p-5">
           <div className="h-full w-1/2 md:w-1/6 flex justify-center items-center flex-col bg-primary/70 rounded-md shadow-lg p-5">
             <div className="bg-profile rounded-full h-20 w-20 bg-cover bg-right"></div>
             <div className="italic mt-5 text-white text-sm">
