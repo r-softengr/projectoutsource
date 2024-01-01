@@ -5,8 +5,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#2b323f",
-        secondary: "#f6f7f9",
+        default: "#ffffff",
+        primary: "#0a6ac0",
+        secondary: "#10abe1",
+        customBlack: "#4e4d4e",
+        customGreen: "#b4c292",
+        customOrange: "#e29563",
+        customGray: "#e4dcd9",
       },
       backgroundImage: {
         "prop-mgmt":

@@ -1,130 +1,296 @@
 function App() {
   return (
-    <div className="font-sans h-screen w-screen flex-wrap overflow-y-auto scrollbar-thin scrollbar-thumb-primary flex flex-row bg-[url('https://images.unsplash.com/photo-1553877522-43269d4ea984?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')]">
-      <div className="h-1/4 md:h-full flex md:flex-col flex-col justify-center items-center gap-0 w-full">
-        <h1 className="font-sans font-semibold text-4xl animate transition-all duration-1000 sm:text-6xl md:text-7xl lg:text-8xl text-primary">
+    <div className="h-screen w-screen overflow-x-hidden">
+      <div className="flex h-[3rem] w-full items-center justify-center border border-x-0 indent-5">
+        <span className="w-full text-3xl font-bold text-primary">
           PROJECT: VA
-        </h1>
-        <h2 className="font-sans font-semibold text-xs sm:text-sm md:text-lg lg:text-xl text-primary">
-          Simplifying Life, Maximizing Productivity.
-        </h2>
+        </span>
       </div>
-      <div className="indent-5 p-10 text-base md:text-lg font-base h-auto flex md:flex-col flex-col justify-center items-center gap-4 w-full bg-[#212630] text-[#aebacb]">
-        PROJECT: VA; is a leading VA agency dedicated to providing tailored
-        support solutions for businesses worldwide. Specializing in
-        administrative tasks, customer service, and project management, our team
-        of skilled virtual assistants is committed to enhancing operational
-        efficiency and allowing our clients to focus on their core business
-        functions. Our services cover a broad spectrum, including email and
-        calendar management, data entry, social media management, and more. We
-        understand the importance of flexibility and customization, ensuring
-        that our virtual assistants seamlessly integrate into diverse business
-        environments. At PROJECT: VA;, we prioritize client satisfaction,
-        confidentiality, and reliability. Our goal is to offer a cost-effective
-        alternative to traditional in-house support, allowing businesses of all
-        sizes to benefit from professional assistance without the overhead
-        costs. By leveraging the latest technology and a team of dedicated
-        professionals, Virtual Assist Pro empowers businesses to scale,
-        innovate, and thrive in a competitive landscape. Experience the
-        convenience of a virtual support team tailored to meet your unique
-        requirements – choose PROJECT: VA; for unparalleled virtual assistance
-        expertise.
+      {/* Main */}
+      <div className="flex h-full w-full flex-col items-center justify-center gap-20 p-10">
+        <span className="w-full text-balance text-center text-5xl font-bold text-secondary">
+          {" "}
+          We'll handle the tasks, you focus on what matters.{" "}
+        </span>
       </div>
-      <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center w-full font-semibold text-primary my-5">
-        SERVICES OFFERED
-      </div>
-      <div className="p-5 h-full sm:h-1/3 md:h-1/2 lg:h-1/2 w-full gap-5 flex flex-row sm:flex-col md:flex-col sm:overflow-y-scroll md:overflow-y-scroll scrollbar-thin scrollbar-thumb-primary flex-wrap text-primary justify-center items-center">
-        <div className="text-secondary bg-primary/70 sm:w-1/2 md:w-1/2 lg:w-1/4 sm:h-full md:h-1/2 lg:h-1/2  rounded-lg p-5 text-center flex flex-col">
-          <div className="text-sm md:text-xl lg:text-xl">
-            Property Management
+      {/* Cards */}
+      <div className="flex flex-col items-center justify-center gap-10">
+        <div className="flex w-full items-center justify-center text-balance px-5">
+          <span className="text-5xl font-bold text-secondary">
+            Choose from a wide variety of{" "}
+            <span className="text-primary">VA that suit your needs.</span>
+          </span>
+        </div>
+        <div className="mb-10 flex h-auto w-full flex-col items-center justify-center gap-10 px-5 md:flex-row">
+          <div className="text-customBlack group flex h-[20rem] w-[20rem] flex-col rounded-md border p-5 transition-all delay-150 hover:border-secondary hover:shadow-lg">
+            <div className="flex h-[20rem] w-full flex-col items-center justify-center text-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="h-10 w-10 group-hover:text-primary"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 21h19.5m-18-18v18m10.5-18v18m6-13.5V21M6.75 6.75h.75m-.75 3h.75m-.75 3h.75m3-6h.75m-.75 3h.75m-.75 3h.75M6.75 21v-3.375c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21M3 3h12m-.75 4.5H21m-3.75 3.75h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Zm0 3h.008v.008h-.008v-.008Z"
+                />
+              </svg>
+            </div>
+            <div className="flex h-full w-full flex-col gap-4 text-center">
+              <span className="text-center text-xl font-bold group-hover:text-primary">
+                Property Management
+              </span>
+              <span className="font-semibold">
+                Maximizing your property's potential, one detail at a time.
+              </span>
+            </div>
           </div>
-          <div className="text-xs md:text-sm lg:text-sm indent-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quod,
-            voluptatibus ad quo aut quam aliquid atque harum sunt similique
-            labore unde quae quis exercitationem facilis voluptas quia
-            accusantium cumque.
+          <div className="text-customBlack group flex h-[20rem] w-[20rem] flex-col rounded-md border p-5 transition-all delay-150 hover:border-secondary hover:shadow-lg">
+            <div className="flex h-[20rem] w-full flex-col items-center justify-center text-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="h-10 w-10 group-hover:text-primary"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M3 13.125C3 12.504 3.504 12 4.125 12h2.25c.621 0 1.125.504 1.125 1.125v6.75C7.5 20.496 6.996 21 6.375 21h-2.25A1.125 1.125 0 0 1 3 19.875v-6.75ZM9.75 8.625c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125v11.25c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V8.625ZM16.5 4.125c0-.621.504-1.125 1.125-1.125h2.25C20.496 3 21 3.504 21 4.125v15.75c0 .621-.504 1.125-1.125 1.125h-2.25a1.125 1.125 0 0 1-1.125-1.125V4.125Z"
+                />
+              </svg>
+            </div>
+            <div className="flex h-full w-full flex-col gap-4 text-center">
+              <span className="text-center text-2xl font-bold group-hover:text-primary">
+                Bookkeeping
+              </span>
+              <span className="font-semibold">
+                Unleash the power of your numbers.
+              </span>
+            </div>
+          </div>
+          <div className="text-customBlack group flex h-[20rem] w-[20rem] flex-col rounded-md border p-5 transition-all delay-150 hover:border-secondary hover:shadow-lg">
+            <div className="flex h-[20rem] w-full flex-col items-center justify-center text-center">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                className="h-10 w-10 group-hover:text-primary"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M2.25 7.125C2.25 6.504 2.754 6 3.375 6h6c.621 0 1.125.504 1.125 1.125v3.75c0 .621-.504 1.125-1.125 1.125h-6a1.125 1.125 0 0 1-1.125-1.125v-3.75ZM14.25 8.625c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v8.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-8.25ZM3.75 16.125c0-.621.504-1.125 1.125-1.125h5.25c.621 0 1.125.504 1.125 1.125v2.25c0 .621-.504 1.125-1.125 1.125h-5.25a1.125 1.125 0 0 1-1.125-1.125v-2.25Z"
+                />
+              </svg>
+            </div>
+            <div className="flex h-full w-full flex-col gap-4 text-center">
+              <span className="text-center text-2xl font-bold group-hover:text-primary">
+                Graphic Design
+              </span>
+              <span className="font-semibold">
+                We don't just design, we solve problems with creativity.
+              </span>
+            </div>
           </div>
         </div>
-        <div className="text-secondary bg-primary/70 sm:w-1/2 md:w-1/2 lg:w-1/4 sm:h-full md:h-1/2 lg:h-1/2  rounded-lg p-5 text-center flex flex-col">
-          <div className="text-sm md:text-xl lg:text-xl">
-            Property Management
-          </div>
-          <div className="text-xs md:text-sm lg:text-sm indent-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quod,
-            voluptatibus ad quo aut quam aliquid atque harum sunt similique
-            labore unde quae quis exercitationem facilis voluptas quia
-            accusantium cumque.
-          </div>
-        </div>
-        <div className="text-secondary bg-primary/70 sm:w-1/2 md:w-1/2 lg:w-1/4 sm:h-full md:h-1/2 lg:h-1/2  rounded-lg p-5 text-center flex flex-col">
-          <div className="text-sm md:text-xl lg:text-xl">
-            Property Management
-          </div>
-          <div className="text-xs md:text-sm lg:text-sm indent-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quod,
-            voluptatibus ad quo aut quam aliquid atque harum sunt similique
-            labore unde quae quis exercitationem facilis voluptas quia
-            accusantium cumque.
-          </div>
+      </div>
+      <div className="flex h-24 w-full items-center justify-center">
+        <div className="cursor-pointer h-14 w-40 flex items-center rounded-full justify-center bg-primary/80 hover:bg-primary text-lg font-bold text-white">
+          Hire your VA
         </div>
       </div>
-      <div className="w-full h-1/4 flex justify-center items-center">
-        <button className="rounded-md bg-primary/80 hover:bg-primary p-5 text-white font-semibold">
-          BOOK A CONSULTATION
-        </button>
+      {/* Feedback */}
+      <div className="my-10 flex h-32 w-full items-center justify-center px-5 mt-20">
+        <span className="text-5xl font-bold text-primary">
+          More Than Reviews:{" "}
+          <span className="text-5xl font-bold text-secondary">
+            A Conversation That Powers Progress.
+          </span>
+        </span>
       </div>
-      <div className="w-full h-1/2">
-        <div className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-center w-full font-semibold text-primary my-5">
-          CLIENT'S FEEDBACK
+      <div className="grid grid-flow-dense grid-cols-1 gap-10 p-10 leading-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5">
+        <div className="flex flex-col gap-4 text-balance rounded-md border p-3 text-center font-semibold shadow-sm transition-all hover:shadow-xl">
+          <span className="text-customBlack text-sm italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            blanditiis consequuntur aperiam. Mollitia optio quae illum officiis?
+            Necessitatibus cupiditate distinctio non nisi aspernatur nihil,
+            animi, velit ullam voluptatibus error quidem?"
+          </span>
+          <div className="w-full">
+            <span className="text-customBlack/80 text-xs">- @randomUser</span>
+          </div>
         </div>
-        <div className="w-full h-full flex flex-col justify-between items-center gap-5 overflow-y-auto flex-wrap p-5 scrollbar-thin scrollbar-thumb-primary">
-          <div className="h-full w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 flex justify-center items-center flex-col bg-primary/70 rounded-md shadow-lg p-5">
-            <div className="bg-profile rounded-full h-[50px] w-[50px] bg-cover bg-right"></div>
-            <div className="italic mt-5 text-white text-sm">
-              "This is a very interesting feedback from the client"
-            </div>
+        <div className="flex flex-col gap-4 text-balance rounded-md border p-3 text-center font-semibold shadow-sm transition-all hover:shadow-xl">
+          <span className="text-customBlack text-sm italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic amet
+            voluptate doloribus cum reprehenderit quibusdam distinctio sunt
+            architecto nisi praesentium laboriosam qui voluptatem nam neque
+            magni voluptas eaque, repellendus pariatur.
+          </span>
+          <div className="w-full">
+            <span className="text-customBlack/80 text-xs">- @randomUser</span>
           </div>
-          <div className="h-full w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 flex justify-center items-center flex-col bg-primary/70 rounded-md shadow-lg p-5">
-            <div className="bg-profile rounded-full h-[50px] w-[50px] bg-cover bg-right"></div>
-            <div className="italic mt-5 text-white text-sm">
-              "This is a very interesting feedback from the client"
-            </div>
+        </div>
+        <div className="flex flex-col gap-4 text-balance rounded-md border p-3 text-center font-semibold shadow-sm transition-all hover:shadow-xl">
+          <span className="text-customBlack text-sm italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolor
+            quasi ipsa odio voluptatem incidunt culpa distinctio officia
+            quisquam obcaecati dolorum ullam nihil, porro reiciendis possimus
+            iure recusandae, magnam quod."
+          </span>
+          <div className="w-full">
+            <span className="text-customBlack/80 text-xs">- @randomUser</span>
           </div>
-          <div className="h-full w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 flex justify-center items-center flex-col bg-primary/70 rounded-md shadow-lg p-5">
-            <div className="bg-profile rounded-full h-[50px] w-[50px] bg-cover bg-right"></div>
-            <div className="italic mt-5 text-white text-sm">
-              "This is a very interesting feedback from the client"
-            </div>
+        </div>
+        <div className="flex flex-col gap-4 text-balance rounded-md border p-3 text-center font-semibold shadow-sm transition-all hover:shadow-xl">
+          <span className="text-customBlack text-sm italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            ducimus nesciunt rem voluptates vero quam voluptas doloremque
+            provident obcaecati dolorum, commodi iste excepturi sunt assumenda
+            quo. Aut nisi totam quidem?
+          </span>
+          <div className="w-full">
+            <span className="text-customBlack/80 text-xs">- @randomUser</span>
           </div>
-          <div className="h-full w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 flex justify-center items-center flex-col bg-primary/70 rounded-md shadow-lg p-5">
-            <div className="bg-profile rounded-full h-[50px] w-[50px] bg-cover bg-right"></div>
-            <div className="italic mt-5 text-white text-sm">
-              "This is a very interesting feedback from the client"
-            </div>
+        </div>
+        <div className="flex flex-col gap-4 text-balance rounded-md border p-3 text-center font-semibold shadow-sm transition-all hover:shadow-xl">
+          <span className="text-customBlack text-sm italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            blanditiis consequuntur aperiam. Mollitia optio quae illum officiis?
+            Necessitatibus cupiditate distinctio non nisi aspernatur nihil,
+            animi, velit ullam voluptatibus error quidem?"
+          </span>
+          <div className="w-full">
+            <span className="text-customBlack/80 text-xs">- @randomUser</span>
           </div>
-          <div className="h-full w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 flex justify-center items-center flex-col bg-primary/70 rounded-md shadow-lg p-5">
-            <div className="bg-profile rounded-full h-[50px] w-[50px] bg-cover bg-right"></div>
-            <div className="italic mt-5 text-white text-sm">
-              "This is a very interesting feedback from the client"
-            </div>
+        </div>
+        <div className="flex flex-col gap-4 text-balance rounded-md border p-3 text-center font-semibold shadow-sm transition-all hover:shadow-xl">
+          <span className="text-customBlack text-sm italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic amet
+            voluptate doloribus cum reprehenderit quibusdam distinctio sunt
+            architecto nisi praesentium laboriosam qui voluptatem nam neque
+            magni voluptas eaque, repellendus pariatur.
+          </span>
+          <div className="w-full">
+            <span className="text-customBlack/80 text-xs">- @randomUser</span>
           </div>
-          <div className="h-full w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 flex justify-center items-center flex-col bg-primary/70 rounded-md shadow-lg p-5">
-            <div className="bg-profile rounded-full h-[50px] w-[50px] bg-cover bg-right"></div>
-            <div className="italic mt-5 text-white text-sm">
-              "This is a very interesting feedback from the client"
-            </div>
+        </div>
+        <div className="flex flex-col gap-4 text-balance rounded-md border p-3 text-center font-semibold shadow-sm transition-all hover:shadow-xl">
+          <span className="text-customBlack text-sm italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolor
+            quasi ipsa odio voluptatem incidunt culpa distinctio officia
+            quisquam obcaecati dolorum ullam nihil, porro reiciendis possimus
+            iure recusandae, magnam quod."
+          </span>
+          <div className="w-full">
+            <span className="text-customBlack/80 text-xs">- @randomUser</span>
           </div>
-          <div className="h-full w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 flex justify-center items-center flex-col bg-primary/70 rounded-md shadow-lg p-5">
-            <div className="bg-profile rounded-full h-[50px] w-[50px] bg-cover bg-right"></div>
-            <div className="italic mt-5 text-white text-sm">
-              "This is a very interesting feedback from the client"
-            </div>
+        </div>
+        <div className="flex flex-col gap-4 text-balance rounded-md border p-3 text-center font-semibold shadow-sm transition-all hover:shadow-xl">
+          <span className="text-customBlack text-sm italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            ducimus nesciunt rem voluptates vero quam voluptas doloremque
+            provident obcaecati dolorum, commodi iste excepturi sunt assumenda
+            quo. Aut nisi totam quidem?
+          </span>
+          <div className="w-full">
+            <span className="text-customBlack/80 text-xs">- @randomUser</span>
           </div>
-          <div className="h-full w-1/2 sm:w-1/3 md:w-1/4 lg:w-1/6 flex justify-center items-center flex-col bg-primary/70 rounded-md shadow-lg p-5">
-            <div className="bg-profile rounded-full h-[50px] w-[50px] bg-cover bg-right"></div>
-            <div className="italic mt-5 text-white text-sm">
-              "This is a very interesting feedback from the client"
-            </div>
+        </div>
+        <div className="flex flex-col gap-4 text-balance rounded-md border p-3 text-center font-semibold shadow-sm transition-all hover:shadow-xl">
+          <span className="text-customBlack text-sm italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            blanditiis consequuntur aperiam. Mollitia optio quae illum officiis?
+            Necessitatibus cupiditate distinctio non nisi aspernatur nihil,
+            animi, velit ullam voluptatibus error quidem?"
+          </span>
+          <div className="w-full">
+            <span className="text-customBlack/80 text-xs">- @randomUser</span>
+          </div>
+        </div>
+        <div className="flex flex-col gap-4 text-balance rounded-md border p-3 text-center font-semibold shadow-sm transition-all hover:shadow-xl">
+          <span className="text-customBlack text-sm italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic amet
+            voluptate doloribus cum reprehenderit quibusdam distinctio sunt
+            architecto nisi praesentium laboriosam qui voluptatem nam neque
+            magni voluptas eaque, repellendus pariatur.
+          </span>
+          <div className="w-full">
+            <span className="text-customBlack/80 text-xs">- @randomUser</span>
+          </div>
+        </div>
+        <div className="flex flex-col gap-4 text-balance rounded-md border p-3 text-center font-semibold shadow-sm transition-all hover:shadow-xl">
+          <span className="text-customBlack text-sm italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolor
+            quasi ipsa odio voluptatem incidunt culpa distinctio officia
+            quisquam obcaecati dolorum ullam nihil, porro reiciendis possimus
+            iure recusandae, magnam quod."
+          </span>
+          <div className="w-full">
+            <span className="text-customBlack/80 text-xs">- @randomUser</span>
+          </div>
+        </div>
+        <div className="flex flex-col gap-4 text-balance rounded-md border p-3 text-center font-semibold shadow-sm transition-all hover:shadow-xl">
+          <span className="text-customBlack text-sm italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            ducimus nesciunt rem voluptates vero quam voluptas doloremque
+            provident obcaecati dolorum, commodi iste excepturi sunt assumenda
+            quo. Aut nisi totam quidem?
+          </span>
+          <div className="w-full">
+            <span className="text-customBlack/80 text-xs">- @randomUser</span>
+          </div>
+        </div>
+        <div className="flex flex-col gap-4 text-balance rounded-md border p-3 text-center font-semibold shadow-sm transition-all hover:shadow-xl">
+          <span className="text-customBlack text-sm italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+            blanditiis consequuntur aperiam. Mollitia optio quae illum officiis?
+            Necessitatibus cupiditate distinctio non nisi aspernatur nihil,
+            animi, velit ullam voluptatibus error quidem?"
+          </span>
+          <div className="w-full">
+            <span className="text-customBlack/80 text-xs">- @randomUser</span>
+          </div>
+        </div>
+        <div className="flex flex-col gap-4 text-balance rounded-md border p-3 text-center font-semibold shadow-sm transition-all hover:shadow-xl">
+          <span className="text-customBlack text-sm italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic amet
+            voluptate doloribus cum reprehenderit quibusdam distinctio sunt
+            architecto nisi praesentium laboriosam qui voluptatem nam neque
+            magni voluptas eaque, repellendus pariatur.
+          </span>
+          <div className="w-full">
+            <span className="text-customBlack/80 text-xs">- @randomUser</span>
+          </div>
+        </div>
+        <div className="flex flex-col gap-4 text-balance rounded-md border p-3 text-center font-semibold shadow-sm transition-all hover:shadow-xl">
+          <span className="text-customBlack text-sm italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Et dolor
+            quasi ipsa odio voluptatem incidunt culpa distinctio officia
+            quisquam obcaecati dolorum ullam nihil, porro reiciendis possimus
+            iure recusandae, magnam quod."
+          </span>
+          <div className="w-full">
+            <span className="text-customBlack/80 text-xs">- @randomUser</span>
+          </div>
+        </div>
+        <div className="flex flex-col gap-4 text-balance rounded-md border p-3 text-center font-semibold shadow-sm transition-all hover:shadow-xl">
+          <span className="text-customBlack text-sm italic">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores
+            ducimus nesciunt rem voluptates vero quam voluptas doloremque
+            provident obcaecati dolorum, commodi iste excepturi sunt assumenda
+            quo. Aut nisi totam quidem?
+          </span>
+          <div className="w-full">
+            <span className="text-customBlack/80 text-xs">- @randomUser</span>
           </div>
         </div>
       </div>
