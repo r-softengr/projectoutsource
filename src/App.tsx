@@ -57,7 +57,7 @@ function App() {
           variants={defaultVariants}
           initial="hidden"
           animate={cardControl}
-          transition={{ duration: 1, delay: 0.5 }}
+          transition={{ duration: 0.5 }}
         >
           <div className="flex flex-col items-center justify-center gap-10">
             <div className="my-10 flex w-full items-center justify-center text-balance px-5">
@@ -160,7 +160,7 @@ function App() {
         variants={defaultVariants}
         animate={feedbackControl}
         transition={{
-          duration: 1,
+          duration: 0.5,
         }}
       >
         <div
