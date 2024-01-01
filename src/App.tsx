@@ -21,7 +21,7 @@ function App() {
             <span className="text-primary">VA that suit your needs.</span>
           </span>
         </div>
-        <div className="border mb-10 flex h-auto w-full flex-col items-center justify-center gap-10 px-5 md:flex-row">
+        <div className="mb-10 flex h-auto w-full flex-col items-center justify-center gap-10 px-5 md:flex-row">
           <div className="text-customBlack group flex h-[20rem] w-full sm:w-[20rem] flex-col rounded-md border p-5 transition-all delay-150 border-primary shadow-lg">
             <div className="flex h-[20rem] w-full flex-col items-center justify-center text-center">
               <svg
