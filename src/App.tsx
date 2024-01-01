@@ -9,8 +9,8 @@ function App() {
       {/* Main */}
       <div className="flex h-full w-full flex-col items-center justify-center gap-20 p-10">
         <span className="w-full text-balance text-center text-5xl font-bold text-secondary">
-          {" "}
-          We'll handle the tasks, you focus on what matters.{" "}
+          We'll handle the tasks,{" "}
+          <span className="text-primary">you focus on what matters.</span>
         </span>
       </div>
       {/* Cards */}
@@ -21,8 +21,8 @@ function App() {
             <span className="text-primary">VA that suit your needs.</span>
           </span>
         </div>
-        <div className="mb-10 flex h-auto w-full flex-col items-center justify-center gap-10 px-5 md:flex-row">
-          <div className="text-customBlack group flex h-[20rem] w-[20rem] flex-col rounded-md border p-5 transition-all delay-150 hover:border-secondary hover:shadow-lg">
+        <div className="border mb-10 flex h-auto w-full flex-col items-center justify-center gap-10 px-5 md:flex-row">
+          <div className="text-customBlack group flex h-[20rem] w-full sm:w-[20rem] flex-col rounded-md border p-5 transition-all delay-150 border-primary shadow-lg">
             <div className="flex h-[20rem] w-full flex-col items-center justify-center text-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -30,7 +30,7 @@ function App() {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                className="h-10 w-10 group-hover:text-primary"
+                className="h-10 w-10 text-primary"
               >
                 <path
                   stroke-linecap="round"
@@ -40,7 +40,7 @@ function App() {
               </svg>
             </div>
             <div className="flex h-full w-full flex-col gap-4 text-center">
-              <span className="text-center text-xl font-bold group-hover:text-primary">
+              <span className="text-center text-xl font-bold text-primary">
                 Property Management
               </span>
               <span className="font-semibold">
@@ -48,7 +48,7 @@ function App() {
               </span>
             </div>
           </div>
-          <div className="text-customBlack group flex h-[20rem] w-[20rem] flex-col rounded-md border p-5 transition-all delay-150 hover:border-secondary hover:shadow-lg">
+          <div className="text-customBlack group flex h-[20rem] w-full sm:w-[20rem] flex-col rounded-md border p-5 transition-all delay-150 border-primary shadow-lg">
             <div className="flex h-[20rem] w-full flex-col items-center justify-center text-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ function App() {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                className="h-10 w-10 group-hover:text-primary"
+                className="h-10 w-10 text-primary"
               >
                 <path
                   stroke-linecap="round"
@@ -66,7 +66,7 @@ function App() {
               </svg>
             </div>
             <div className="flex h-full w-full flex-col gap-4 text-center">
-              <span className="text-center text-2xl font-bold group-hover:text-primary">
+              <span className="text-center text-2xl font-bold text-primary">
                 Bookkeeping
               </span>
               <span className="font-semibold">
@@ -74,7 +74,7 @@ function App() {
               </span>
             </div>
           </div>
-          <div className="text-customBlack group flex h-[20rem] w-[20rem] flex-col rounded-md border p-5 transition-all delay-150 hover:border-secondary hover:shadow-lg">
+          <div className="text-customBlack group flex h-[20rem] w-full sm:w-[20rem] flex-col rounded-md border p-5 transition-all delay-150 border-primary shadow-lg">
             <div className="flex h-[20rem] w-full flex-col items-center justify-center text-center">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -82,7 +82,7 @@ function App() {
                 viewBox="0 0 24 24"
                 stroke-width="1.5"
                 stroke="currentColor"
-                className="h-10 w-10 group-hover:text-primary"
+                className="h-10 w-10 text-primary"
               >
                 <path
                   stroke-linecap="round"
@@ -92,7 +92,7 @@ function App() {
               </svg>
             </div>
             <div className="flex h-full w-full flex-col gap-4 text-center">
-              <span className="text-center text-2xl font-bold group-hover:text-primary">
+              <span className="text-center text-2xl font-bold text-primary">
                 Graphic Design
               </span>
               <span className="font-semibold">
@@ -109,9 +109,9 @@ function App() {
       </div>
       {/* Feedback */}
       <div className="my-10 flex h-32 w-full items-center justify-center px-5 mt-20">
-        <span className="text-5xl font-bold text-primary">
+        <span className="text-5xl font-bold text-secondary">
           More Than Reviews:{" "}
-          <span className="text-5xl font-bold text-secondary">
+          <span className="text-5xl font-bold text-primary">
             A Conversation That Powers Progress.
           </span>
         </span>
